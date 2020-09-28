@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html>
+<title>AnimeSan</title>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link rel="stylesheet" href="./style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+<body>
+  <!-- Top menu -->
+  <nav style="
+        background-color: white;
+        border-bottom: 1px solid gray;
+        z-index: 99;
+        position: fixed;
+        top: 0;
+        right: 0;
+        left: 0;
+      ">
+    <div style="
+          max-width: 1200px;
+          margin: auto;
+          display: flex;
+          align-items: center;
+        ">
+      <a href="#gallery" class="w3-bar-item w3-button">Gallery</a>
+      <a href="#about" class="w3-bar-item w3-button">About</a>
+      <div style="flex: 1"></div>
+      <div class="w3-right w3-padding-16">
+        <a href="mailto: lukand1@hotmail.com">Send Email</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- !PAGE CONTENT! -->
+  <div class="w3-main w3-content w3-padding" style="max-width: 1200px; margin-top: 100px">
+    <h1 style="text-align: center;">AnimeSan</h1>
+    <section id="gallery">
+
+      <!-- First Photo Grid-->
+      <div class="w3-row-padding w3-padding-16 w3-center">
+        <h3 style="margin-bottom: 32px">Anime List</h3>
+        <div class="w3-quarter">
+          <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113813-UCgSIGyWvLgl.jpg"
+            style="width: 100%" />
+          <h3>Kanojo, Okarishimasu</h3>
+          <p>
+            Kazuya Kinoshita is a 20-year-old college student who has a wonderful girlfriend,
+            the bright and sunny Mami Nanami. But suddenly, he doesn't.
+        </div>
+        <div class="w3-quarter">
+          <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114236-lSQF4ljWQXdU.jpg"
+            style="width: 100%" />
+          <h3>Enen no Shouboutai: Ni no Shou</h3>
+          <p>
+            Second season of Enen no Shouboutai.
+          </p>
+        </div>
+        <div class="w3-quarter">
+          <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114043-6bOULvSMGXa3.jpg"
+            style="width: 100%" />
+          <h3>Shokugeki no Souma: Gou no Sara</h3>
+          <p>Fifth season of Shokugeki no Souma.</p>
+        </div>
+        <div class="w3-quarter">
+          <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx108489-UqIzSjJ4eOMD.png"
+            style="width: 100%" />
+          <h3>Yahari Ore no Seishun Love Comedy wa Machigatteiru. Kan</h3>
+          <p>Third season of Yahari Ore no Seishun Love Comedy wa Machigatteiru.</p>
+        </div>
+      </div>
+
+      <!-- Second Photo Grid with Flex-->
+      <div style="display: flex; flex-direction: row; flex-wrap: wrap">
+        <div class="wrapping-item">
+          <a target="_blank"
+            href="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114888-lgecUF3O1AWS.png">
+            <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx114888-lgecUF3O1AWS.png"
+              class="image-item" />
+          </a>
+          <h3>Fugou Keiji: Balance:Unlimited</h3>
+          <p>Daisuke Kanbe, a man of extraordinary wealth, is assigned to the Modern Crime Prevention Headquarters as a
+            detective.</p>
+        </div>
+        <div class="wrapping-item">
+          <a target="_blank"
+            href="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111762-VsqqGAy7bdE1.jpg">
+            <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx111762-VsqqGAy7bdE1.jpg" class="image-item" />
+          </a>
+          <h3>Fruits Basket 2nd Season</h3>
+          <p>
+            A year has passed since Tooru Honda began living in the Souma residence, and she has since created stronger
+            relationships with its inhabitants Shigure, Kyou, and Yuki.
+          </p>
+        </div>
+        <div class="wrapping-item">
+          <a target="_blank"
+            href="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112151-NzuNL72zjILK.jpg">
+            <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx112151-NzuNL72zjILK.jpg"
+              class="image-item" />
+          </a>
+          <h3>Kimetsu no Yaiba</h3>
+          <p>
+            Ever since the death of his father, the burden of supporting the family has fallen upon Tanjirou Kamado's
+            shoulders.
+          </p>
+        </div>
+        <div class="wrapping-item">
+          <a target="_blank"
+            href="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-979nF8TZP2xC.jpg">
+            <img src="https://s4.anilist.co/file/anilistcdn/media/anime/cover/large/bx113415-979nF8TZP2xC.jpg"
+              class="image-item" />
+          </a>
+          <h3>Jujutsu Kaisen</h3>
+          <p>
+            In a world where demons feed on unsuspecting humans, fragments of the legendary and feared demon Ryoumen
+            Sukuna were lost and scattered about.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <hr />
+
+    <!-- About Section -->
+    <section id="about">
+      <div class="w3-container w3-padding-32 w3-center">
+        <h3>About Us</h3>
+        <br />
+        <img
+          src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.ytimg.com%2Fvi%2Fen5PHpu0lD4%2Fmaxresdefault.jpg&f=1&nofb=1"
+          alt="Me" class="w3-image" style="display: block; margin: auto" width="800" height="533" />
+        <div class="w3-padding-32">
+          <h4><b>We are AnimeSan</b></h4>
+          <h6><i>Bringing you the latest news of the anime world</i></h6>
+          <p>
+            We are a group of otakus striving to bring news of newest releases of anime so you can
+            stay up to date with all the happenings. We are doing this for fun because we want to spread
+            the word of Anime.
+          </p>
+        </div>
+      </div>
+    </section>
+    <hr />
+
+    <!-- Footer Section -->
+    <section>
+      <footer class="w3-row-padding w3-padding-32">
+        <div class="w3-third">
+          <h3>FOOTER</h3>
+          <p>
+            Praesent tincidunt sed tellus ut rutrum. Sed vitae justo
+            condimentum, porta lectus vitae, ultricies congue gravida diam non
+            fringilla.
+          </p>
+        </div>
+
+        <div class="w3-third">
+          <h3>NEWSLETTER</h3>
+          <!-- <form id="subscriptionForm" onsubmit="return saveToLocalStorage()">
+            <div style="display: flex; flex-direction: column">
+              <span style="margin-bottom: 8px">Subscribe to newsletter</span>
+              <div>
+                <div style="display: flex; flex-direction: column">
+                  <span>Full name</span>
+                  <input id="newsletterFieldName" placeholder="Enter full name" name="fullName" type="text" required />
+                  <span>Email</span>
+                  <input id="newsletterFieldEmail" name="email" placeholder="Enter your email" type="email" required />
+                </div>
+
+                <button id="submitButton" style="margin-top: 12px" type="submit">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form> -->
+          <form id="subscriptionForm" action="form.php" method="post">
+            <div style="display: flex; flex-direction: column">
+              <span style="margin-bottom: 8px">Subscribe to newsletter</span>
+              <div>
+                <div style="display: flex; flex-direction: column">
+                  <span>Full name</span>
+                  <input id="newsletterFieldName" placeholder="Enter full name" name="fullName" type="text" required />
+                  <span>Email</span>
+                  <input id="newsletterFieldEmail" name="email" placeholder="Enter your email" type="email" required />
+                </div>
+
+                <button id="submitButton" style="margin-top: 12px" type="submit">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <div class="w3-third">
+          <h3>FEEDBACK</h3>
+          <form id="feedbackForm">
+            <div style="display: flex; flex-direction: column">
+              <span style="margin-bottom: 8px">Share your opinion</span>
+              <div>
+                <div style="display: flex; flex-direction: column">
+                  <textarea id="feedbackArea" name="feedbackText" placeholder="Enter feedback" type="text"></textarea>
+                  <span id="errorFeedback" class="errorFeedback">This field must be filled</span>
+                </div>
+
+                <button id="feedbackButton" style="margin-top: 12px" type="submit">
+                  Send
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </footer>
+    </section>
+
+    <!-- End page content -->
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
